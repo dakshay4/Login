@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.jwt.login.ProfilePOJO" table="PROFILE">
+		<id column="USERID" name="userid" type="string" >
+		<generator class="assigned"/>
+		</id> 
+		<property column="FIRST_NAME" name="fname" type="string" />
+		<property column="LAST_NAME" name="lname" type="string" />
+		<property column="ADDRESS" name="address" type="string" />
+		<property column="CITY" name="city" type="string" />
+		<property column="PIN" name="pin" type="java.lang.Integer" />
+		<property column="DOB" name="dob" type="string" />
+	</class>
+</hibernate-mapping>

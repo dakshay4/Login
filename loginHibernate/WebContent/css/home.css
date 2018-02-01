@@ -1,0 +1,9 @@
+@charset "UTF-8";
+body #page{
+		background: url("../images/rummy-logo.png") no-repeat scroll center top #000000;
+		margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+	z-index: 3;
+}
